@@ -4,7 +4,6 @@
 weight = float(input("Please enter your Weight in Kilograms (KG): "))
 height = float(input("Please enter your Height in centimetres (CM): "))
 
-
 # print ("The weight entered is weight" , weight , "and height entered is" , height,) code line used to verify inputs working correctly
 
 Meters_Squard = ((height * height) / 100) #converts CM to Meters Squared
