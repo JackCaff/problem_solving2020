@@ -9,4 +9,4 @@ sentence = sentence [::-1] #Reverses the sentence entered
 
 print ("Your sentence in reverse is :",sentence,) # Prints the full sentence in reverse 
 
-print ("Every second later of the Sentence in reverse is: ", sentence [::2],) #Displays every second letter of the reversed sentence
+print ("Every second letter of the Sentence in reverse is: ", sentence [::2],) #Displays every second letter of the reversed sentence
