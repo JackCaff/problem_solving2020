@@ -4,6 +4,14 @@
 Entered_value = int(input("Please enter a positive number (integer): ")) #Allows user to enter a integer
 
 if (Entered_value % 2) == 0:
-    print ("{0} is an even number".format(Entered_value))
-else:
-     print ("{0} is an odd number".format(Entered_value))   ##Trial progam to determine even or odd number 
+      
+      new_value = (Entered_value // 2)
+      print (new_value)
+
+elif  (Entered_value % 2) == 1:
+         new_value = (Entered_value * 3 )
+         
+         print (new_value + 1)
+  
+elif Entered_value < 1:
+         print ("Please Enter a positive integer")              
