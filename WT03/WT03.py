@@ -1,5 +1,5 @@
 # Weekly Task 3 (Programming & Scripting)  Jack Caffrey
-# Program allows a user enter a sentance and output every second later of the sentence in reverse
+# Program allows a user enter a sentance and output every second letter of the sentence in reverse
 
 sentence = input(str("Please enter your sentence: ")) #Allows user to enter a sentence
 
